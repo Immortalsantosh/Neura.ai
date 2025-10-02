@@ -10,7 +10,7 @@ dotenv.config();
 
 const app = express();
 app.use(cors({
-    origin: "https://neura-ai-4-keln.onrender.com", // frontend url
+    origin: "http://localhost:5173", // frontend url
     credentials: true,
 }));
 
