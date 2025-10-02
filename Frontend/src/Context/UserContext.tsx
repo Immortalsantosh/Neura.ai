@@ -42,7 +42,7 @@ interface UserContextProps {
 
 // 5. Context provider component
 function UserContext({ children }: UserContextProps) {
-  const serverUrl = "http://localhost:8000";
+  const serverUrl = "https://neura-ai-xgwf.onrender.com";
   const [userData, setUserData] = useState<IUser | null>(null);
   const [frontendImage, setFrontendImage] = useState<string | null>(null);
   const [backendImage, setBackendImage] = useState<string | null>(null);
